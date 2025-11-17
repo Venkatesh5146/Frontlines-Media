@@ -25,14 +25,27 @@ function App() {
     setErrorMessage('')
     try {
       const response = await fetch(API_URL)
+
       if (!response.ok) {
-        throw new Error('Unable to load company data. Please try again.')
+        throw new Error(
+          `Unable to load company data (HTTP ${response.status}). Please verify API_URL.`,
+        )
       }
+
+      const contentType = response.headers.get('content-type') || ''
+      if (!contentType.includes('application/json')) {
+        const snippet = (await response.text()).slice(0, 120)
+        throw new Error(
+          'The companies endpoint did not return JSON. Check that API_URL points to a JSON API or /mock-api/db.json. ' +
+            `First bytes: ${snippet}`,
+        )
+      }
+
       const payload = await response.json()
       setCompanies(Array.isArray(payload) ? payload : payload.companies || [])
       setStatus('success')
     } catch (error) {
-      setErrorMessage(error.message || 'Something went wrong')
+      setErrorMessage(error.message || 'Something went wrong while fetching companies.')
       setStatus('error')
     }
   }, [])
