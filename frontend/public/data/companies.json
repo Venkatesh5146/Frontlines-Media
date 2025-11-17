@@ -1,0 +1,103 @@
+[
+  {
+    "id": "cmp-001",
+    "name": "Northwind Analytics",
+    "location": "New York, USA",
+    "industry": "Analytics",
+    "size": "250-500",
+    "founded": 2014,
+    "website": "https://northwind.io",
+    "description": "Delivers AI-assisted analytics for finance and operations teams."
+  },
+  {
+    "id": "cmp-002",
+    "name": "Evergreen Labs",
+    "location": "Portland, USA",
+    "industry": "Climate Tech",
+    "size": "50-100",
+    "founded": 2018,
+    "website": "https://evergreenlabs.com",
+    "description": "Builds SaaS for tracking carbon offsets and sustainability programs."
+  },
+  {
+    "id": "cmp-003",
+    "name": "Helios Robotics",
+    "location": "Munich, Germany",
+    "industry": "Robotics",
+    "size": "500-1000",
+    "founded": 2010,
+    "website": "https://heliosrobotics.de",
+    "description": "Manufactures autonomous mobile robots for logistics centers."
+  },
+  {
+    "id": "cmp-004",
+    "name": "Mariner Digital",
+    "location": "Toronto, Canada",
+    "industry": "Marketing Tech",
+    "size": "100-250",
+    "founded": 2016,
+    "website": "https://marinerdigital.ca",
+    "description": "Omnichannel marketing automation for mid-market retailers."
+  },
+  {
+    "id": "cmp-005",
+    "name": "Aurora Bio",
+    "location": "Boston, USA",
+    "industry": "Biotech",
+    "size": "1000+",
+    "founded": 2007,
+    "website": "https://aurorabio.com",
+    "description": "R&D platform accelerating biologics discovery with cloud labs."
+  },
+  {
+    "id": "cmp-006",
+    "name": "Skyline Mobility",
+    "location": "Singapore",
+    "industry": "Transportation",
+    "size": "250-500",
+    "founded": 2012,
+    "website": "https://skylinemobility.sg",
+    "description": "Fleet management software powering electric micro-transit fleets."
+  },
+  {
+    "id": "cmp-007",
+    "name": "Atlas Pay",
+    "location": "London, UK",
+    "industry": "Fintech",
+    "size": "50-100",
+    "founded": 2019,
+    "website": "https://atlaspay.co",
+    "description": "Cross-border payments infrastructure for marketplaces."
+  },
+  {
+    "id": "cmp-008",
+    "name": "BluePeak Security",
+    "location": "Austin, USA",
+    "industry": "Cybersecurity",
+    "size": "100-250",
+    "founded": 2015,
+    "website": "https://bluepeaksec.com",
+    "description": "Managed detection and response platform for critical infrastructure."
+  },
+  {
+    "id": "cmp-009",
+    "name": "Coral Health",
+    "location": "Sydney, Australia",
+    "industry": "Health Tech",
+    "size": "250-500",
+    "founded": 2013,
+    "website": "https://coralhealth.au",
+    "description": "Remote patient monitoring and virtual care orchestration."
+  },
+  {
+    "id": "cmp-010",
+    "name": "Lumen Studio",
+    "location": "San Francisco, USA",
+    "industry": "Design",
+    "size": "0-50",
+    "founded": 2021,
+    "website": "https://lumen.studio",
+    "description": "Boutique design studio crafting immersive brand experiences."
+  }
+]
+
