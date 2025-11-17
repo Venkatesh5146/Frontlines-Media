@@ -30,7 +30,7 @@ Create a `.env` file in the project root with:
 VITE_API_URL=http://localhost:5174/companies
 ```
 
-When no environment variable is provided, the app falls back to the bundled `public/data/companies.json`.
+If no environment variable is provided in development, you can temporarily point the code to `/mock-api/db.json`, but for production deployments you should always provide a real API URL.
 
 ### Run the dev server
 
