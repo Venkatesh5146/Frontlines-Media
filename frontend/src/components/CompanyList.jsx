@@ -8,11 +8,20 @@ function CompanyList({ companies }) {
 
   return (
     <section
-      className="grid gap-4 md:grid-cols-2 lg:grid-cols-3"
+      className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
       aria-live="polite"
     >
-      {companies.map((company) => (
-        <CompanyCard key={company.id} company={company} />
+      {companies.map((company, index) => (
+        <div
+          key={company.id || company._id}
+          className="animate-fade-in"
+          style={{
+            animationDelay: `${index * 50}ms`,
+            animationFillMode: 'both',
+          }}
+        >
+          <CompanyCard company={company} />
+        </div>
       ))}
     </section>
   )
